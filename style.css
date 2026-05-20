@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
 }
 
 .icon {
@@ -80,14 +80,14 @@
 }
 
 .icon img {
-    width: 80px;
-    filter: drop-shadow(0 0 8px #00bfff);
+    width: 90px;
+    filter: drop-shadow(0 0 10px #00bfff);
 }
 
 .icon span {
     margin-top: 10px;
     color: #e0e0e0;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* PROJETOS */
@@ -103,19 +103,21 @@
 }
 
 .projeto img {
-    width: 350px;
+    width: 380px;
     border-radius: 10px;
-    box-shadow: 0 0 20px #00bfff;
+    box-shadow: 0 0 25px #00bfff;
 }
 
 .projeto h3 {
     color: #00bfff;
     margin-top: 20px;
+    font-size: 1.4rem;
 }
 
 .projeto p {
     color: #d0d0d0;
     margin: 10px 0 20px;
+    font-size: 1.1rem;
 }
 
 .projeto a {
@@ -124,10 +126,11 @@
     color: #00bfff;
     text-decoration: none;
     border: 1px solid #00bfff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 5px;
     transition: 0.3s;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .projeto a:hover {
